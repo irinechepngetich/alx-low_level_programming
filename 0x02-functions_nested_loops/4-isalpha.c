@@ -2,6 +2,7 @@
 /**
  * _isalpha - check the code.
  *
+ *@c: the character to be checked
  * Return: Always 0.
  */
 int _isalpha(int c)
