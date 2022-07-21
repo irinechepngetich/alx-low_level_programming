@@ -29,7 +29,6 @@ return (find_pal(s, 0, count - 1));
  */
 int find_pal(char *s, int f_i, int b_i)
 {
-  /*printf("%c - %c : %d - %d\n", s[f_i], s[b_i], f_i, b_i); */
 if (s[f_i] != s[b_i])
 return (0);
 if (s[f_i] == s[b_i] && f_i == b_i)
